@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "carregamentoFotoCompleto",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "carregamentoReelscompleto",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "criouEnd",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "editouPerfil",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "perfilComprado",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AppFood/AppFoodWEB3/gastroAppFuncoes.sol": "FuncoesApp"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AppFood/AppFoodWEB3/gastroAppFuncoes.sol": {
+			"keccak256": "0xaf003449c1cfb7b9d82f291e0bfa88266daccdc2174bd425091e7c0c6060357f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45491aec30a7a75e9a61b906eb670a50630a3d6cb06b47642c64bb2362719b81",
+				"dweb:/ipfs/QmaaPJNQ6xg5CKWkADuNHfZ8xwXkMZg2GD96j6GK2WVFPc"
+			]
+		}
+	},
+	"version": 1
+}

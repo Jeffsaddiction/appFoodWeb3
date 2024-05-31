@@ -1,0 +1,299 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "carregamentoFotoCompleto",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "carregamentoReelscompleto",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "criouEnd",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "editouPerfil",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nome",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_foto",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_categoria",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_bio",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_linkExterno",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nascimento",
+						"type": "uint256"
+					}
+				],
+				"name": "PerfilRestaurante",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_video",
+						"type": "string"
+					}
+				],
+				"name": "Reels",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "bebidas",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nomeBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descricaoBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fotoBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "categoriaBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valorBebida",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "comprarPerfil",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nomeBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_descricaoBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_categoriaBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fotoBebida",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_valorBebida",
+						"type": "uint256"
+					}
+				],
+				"name": "criarBebida",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_nomePrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_descricaoPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_categoriaPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_fotoPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_valorPrato",
+						"type": "uint256"
+					}
+				],
+				"name": "criarPrato",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "perfilComprado",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "pratos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "nomePrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "descricaoPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "categoriaPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "fotoPrato",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "valorPrato",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AppFood/AppFoodWEB3/gastroAppRestaurantes.sol": "RestauranteApp"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AppFood/AppFoodWEB3/gastroAppFuncoes.sol": {
+			"keccak256": "0xaf003449c1cfb7b9d82f291e0bfa88266daccdc2174bd425091e7c0c6060357f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://45491aec30a7a75e9a61b906eb670a50630a3d6cb06b47642c64bb2362719b81",
+				"dweb:/ipfs/QmaaPJNQ6xg5CKWkADuNHfZ8xwXkMZg2GD96j6GK2WVFPc"
+			]
+		},
+		"AppFood/AppFoodWEB3/gastroAppRestaurantes.sol": {
+			"keccak256": "0x562a88a73459a32ed90ea9e40f88445ec0848c70ab7b4189c5b66fc6cb4b23c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7246b29765669818d0f55cafc33de520bff8f4f2ed9fbf9a29f7bcc6dfe938a",
+				"dweb:/ipfs/QmeCUPpgMtyGmuief7t6Ru6JLQPZWMqMskvCJVoPCfUuN6"
+			]
+		}
+	},
+	"version": 1
+}
